@@ -16,7 +16,7 @@ Are you tired of messy machine learning pipelines? Do you struggle to keep track
 <!-- more -->
 
 ---
-> *Condensed mini‑blog inspired by Miguel Dias’s piece on self-hosting an MLflow instance.*
+> *Condensed mini‑blog from my piece on self-hosting an MLflow instance.*
 
 ## Why this stack works
 

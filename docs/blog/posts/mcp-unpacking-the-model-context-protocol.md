@@ -16,7 +16,7 @@ I’ll admit it , when I first heard about the **Model Context Protocol (MCP)**,
 <!-- more -->
 
 ---
-> *Condensed mini‑blog inspired by Miguel Dias’s piece on the Model Context Protocol (MCP).*
+> *Condensed mini‑blog from my piece on the Model Context Protocol (MCP).*
 
 ## MCP in one breath
 
