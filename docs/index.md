@@ -33,19 +33,16 @@ canonical_url: https://www.migueldias.com/
 
 <div class="text-intro-grid" markdown>
 
-# Turn AI complexity into your competitive advantage
+# Hi, I'm Miguel 👋🏼 I build AI systems and document the journey
 
-### I have 10+ years experience doing just that
+### A 10+ years journey turning *AI theory* into *production reality*
 
-- Are you struggling to keep up with the rapid pace of AI innovation?
-
-- Do you need help translating AI hype into real business results?
-
-- Want to implement AI effectively before competitors get ahead?
-
-- Looking for technical expertise and a clear roadmap for AI solutions?
-
-- Need someone who understands both technical and business perspectives?
+- Wondering how AI solves *YOUR* specific business problems?
+- Tired of AI projects that never make it past the PowerPoint?
+- Overwhelmed sorting real AI solutions from the noise?
+- Worried about hallucinations, privacy, and vendor lock-in?
+- Need a clear roadmap from AI pilot to production?
+- Ready to be in the 5%<sup>[1](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/)</sup> whose AI solutions actually bring ROI?
 
 [Book Intro Call :material-arrow-top-right:](https://calendar.app.google/2FvRfdbidFFGPKcu6){ .md-button .md-button--primary target="_blank" }
 
@@ -71,7 +68,7 @@ Here's an overview of everything I'm currently working on in the fields of AI, e
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-building-user:{ .lg .middle } [Datavengers®](https://www.datavengers.tech/)
+-   :fontawesome-solid-building-user:{ .lg .middle } [Datavengers™](https://www.datavengers.tech/)
 
     ---
 
@@ -129,7 +126,7 @@ Here's what sets me apart and how I can help drive value for your business:
 
 </div>
 
-## What my past interactions say about my work
+## What people say about working with me
 
 <div class="grid cards testimonials" markdown>
 
@@ -138,8 +135,8 @@ Here's what sets me apart and how I can help drive value for your business:
     Founder at Sotis Advanced Insights
 
     ---
-
-    "Miguel stands out for his ability to quickly grasp complex topics, understand critical challenges, and identify key issues. His expertise in AI and MLOps enables him to build robust pipelines and contribute effectively to end-to-end solutions, always delivering clean, efficient execution with a proactive mindset. Importantly, he excels in an industrial environment by skillfully managing project constraints and task coordination while developing comprehensive roadmaps with clearly defined scopes."
+    
+    "Miguel stands out for his ability to quickly grasp complex topics, understand critical challenges, and identify key issues. **His expertise in AI and MLOps enables him to build robust pipelines and contribute effectively to end-to-end solutions**, always delivering clean, efficient execution with a proactive mindset. Importantly, he excels in an industrial environment by skillfully managing project constraints and task coordination while **developing comprehensive roadmaps with clearly defined scopes.**"
 
 -   :material-format-quote-open:{ .lg .middle } Nicolas Baillot d'Estivaux
     
@@ -147,7 +144,7 @@ Here's what sets me apart and how I can help drive value for your business:
 
     ---
 
-    "Miguel has a very strong technical background, is able to lead important projects, to make the accurate technical choices and always learns new things and try to implement them in the profesional context. **His support was highly valuable for the data team and for the company.**"
+    "Miguel has a very strong technical background, **is able to lead important projects, to make the accurate technical choices** and always learns new things and try to implement them in the profesional context. His support was **highly valuable for the data team and for the company.**"
 
 -   :material-format-quote-open:{ .lg .middle } Mehdi Elion
     
@@ -155,7 +152,7 @@ Here's what sets me apart and how I can help drive value for your business:
 
     ---
 
-    "**Miguel has definitely shown the best qualities one could dream of in a Lead Data Scientist.** He’s kind, passionate, supportive, encourages you to grow both professionally and technically. He’s also one of the most reliable techies I’ve worked with: Miguel is the go-to guy whether it is for pure Data Science, setup, deployment or even networking issues. It has been an honor to work with him, and I strongly recommend to have him in your team if you get the opportunity to do so."
+    "Miguel has definitely shown **the best qualities one could dream of in an AI Tech Lead**. He's kind, passionate, supportive, encourages you to grow both professionally and technically. **He's also one of the most reliable techies I've worked with: Miguel is the go-to guy whether it is for pure data science, hardware setup, solution deployment or even networking issues.** It has been an honor to work with him, and I strongly recommend to have him in your team if you get the opportunity to do so."
 
 -   :material-format-quote-open:{ .lg .middle } Antonio Jacinto
     
@@ -163,7 +160,7 @@ Here's what sets me apart and how I can help drive value for your business:
 
     ---
 
-    "Miguel's expertise in machine learning and deep learning, particularly in computer vision and its application to industrial cases has been pivotal in our success. His programming skills are exceptional, and his ability to navigate complex technical challenges and to propose innovative solutions significantly contributed to the success of our initiatives. **His contributions have left a lasting impact.**"
+    "**Miguel's expertise in machine learning and deep learning, particularly in computer vision and its application to industrial cases has been pivotal in our success.** His programming skills are exceptional, and **his ability to navigate complex technical challenges and to propose innovative solutions** significantly contributed to the success of our initiatives. **His contributions have left a lasting impact.**"
 
 </div>
 
@@ -176,7 +173,7 @@ Here's what sets me apart and how I can help drive value for your business:
     While I can accommodate projects of any size, I find that engagements of at least 20 hours per week allow for meaningful impact. This gives us enough time to understand your data, implement solutions, and deliver actionable results. We can start with a small pilot project to ensure we're a good fit.
 
 ??? note "What industries do you have experience in?"
-    I've successfully delivered projects across e-commerce, manufacturing, healthcare, and automotive sectors. While I specialize in data science & AI fundamentals that apply across sectors, I particularly excel in projects involving the implementation of AI solutions such as RAG and LLM integration for enterprise applications.
+    I've successfully delivered projects across biotech, healthcare, manufacturing, and automotive sectors. While I specialize in data science & AI fundamentals that apply across sectors, I particularly excel in projects involving the implementation of AI solutions such as RAG and LLM integration for enterprise applications.
 
 ??? note "How do you handle data security and confidentiality?"
     I take data security extremely seriously. I sign comprehensive NDAs before starting any project, use enterprise-grade encryption for all data transfers, and follow industry best practices for data handling. I can also work within your existing security infrastructure and policies.
