@@ -1,6 +1,6 @@
 ---
 title: Case Studies
-description: Datavengers is a data, analytics, and artificial intelligence company founded by Dr Miguel Dias to help businesses integrate AI and data into their operations. 
+description: Datavengers is a data, analytics, and artificial intelligence company founded by Dr Miguel Miranda Dias to help businesses integrate AI and data into their operations. 
 ---
 
 # Featured Projects

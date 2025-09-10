@@ -1,8 +1,8 @@
 ---
 title: About Me
-description: Explore AI, data science, and entrepreneurship with Miguel Dias. Learn about Datavengers, AI tutorials, freelancing, and innovative AI solutions for businesses.
-keywords: Miguel Dias, AI entrepreneur, Datavengers, AI tutorials
-author: Miguel Dias
+description: Explore AI, data science, and entrepreneurship with Miguel Miranda Dias. Learn about Datavengers, AI tutorials, freelancing, and innovative AI solutions for businesses.
+keywords: Miguel Miranda Dias, AI entrepreneur, Datavengers, AI tutorials
+author: Miguel MirandaDias
 canonical_url: https://www.migueldias.com/
 ---
 
@@ -10,7 +10,7 @@ canonical_url: https://www.migueldias.com/
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "Miguel Dias",
+  "name": "Miguel MirandaDias",
   "url": "https://www.migueldias.tech/",
   "image": "https://avatars.githubusercontent.com/u/34709402?v=4",
   "sameAs": [
@@ -50,7 +50,7 @@ canonical_url: https://www.migueldias.com/
 
 <div class="profile-image-grid" markdown>
 
-![Miguel Dias, AI Entrepreneur](assets/@migueldias.jpg){ .profile-image alt="Portrait of Miguel Dias, AI entrepreneur" }
+![Miguel Miranda Dias, AI Entrepreneur](assets/@miguelmirandadias.jpg){ .profile-image alt="Portrait of Miguel Miranda Dias, AI entrepreneur" }
 
 </div>
 

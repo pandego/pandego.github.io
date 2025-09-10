@@ -1,5 +1,5 @@
-site_name: Miguel Dias
-site_description: Miguel Dias - AI Entrepreneur
+site_name: Miguel Miranda Dias
+site_description: Miguel Miranda Dias - AI Entrepreneur
 site_url: https://migueldias.tech
 
 nav:
@@ -110,4 +110,4 @@ extra_files:
   - docs/robots.txt
 
 copyright: |
-  &copy; 2025 <a href="https://www.linkedin.com/justmiguel" target="_blank" rel="noopener">Miguel Dias</a>. All rights reserved.
+  &copy; 2025 <a href="https://www.linkedin.com/justmiguel" target="_blank" rel="noopener">Miguel Miranda Dias</a>. All rights reserved.
