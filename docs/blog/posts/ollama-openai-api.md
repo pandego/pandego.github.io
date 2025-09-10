@@ -1,7 +1,7 @@
 ---
 date: 2023-03-05
 authors:
-  - migueldias
+  - miguelmirandadias
 categories:
   - Tools
   - Python

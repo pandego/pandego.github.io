@@ -3,22 +3,21 @@ title: About Me
 description: Explore AI, data science, and entrepreneurship with Miguel Miranda Dias. Learn about Datavengers, AI tutorials, freelancing, and innovative AI solutions for businesses.
 keywords: Miguel Miranda Dias, AI entrepreneur, Datavengers, AI tutorials
 author: Miguel MirandaDias
-canonical_url: https://www.migueldias.com/
+canonical_url: https://www.miguelmirandadias.com/
 ---
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
-  "name": "Miguel MirandaDias",
+  "name": "Miguel Miranda Dias",
   "url": "https://www.migueldias.tech/",
-  "image": "https://avatars.githubusercontent.com/u/34709402?v=4",
+  "image": "assets/@miguelmirandadias.jpg",
   "sameAs": [
-    "https://www.youtube.com/channel/UCn8ujwUInbJkBhffxqAPBVQ",
-    "https://www.youtube.com/@migueldias",
+    "https://www.youtube.com/@miguelmirandadias",
     "https://www.linkedin.com/in/justmiguel/",
     "https://github.com/pandego"
-    "https://www.skool.com/@migueldias"
+    "https://www.skool.com/@mmiguel-dias-6954"
   ],
   "jobTitle": "Founder & CEO",
   "worksFor": {

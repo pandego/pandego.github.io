@@ -1,7 +1,7 @@
 ---
 date: 2024-05-19
 authors:
-  - migueldias
+  - miguelmirandadias
 categories:
   - Data Science
   - Python
