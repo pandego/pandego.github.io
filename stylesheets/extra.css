@@ -1,0 +1,63 @@
+/* Light theme custom colors */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #07091B;
+  --md-primary-bg-color: #ffff;
+  --md-accent-fg-color: #6248ff;
+  --md-secondary--color-1: #AC50EF;
+  --md-secondary--color-2: #7059FB;
+  --md-secondary--color-3: #2ECFF6;
+  --md-typeset-a-color: var(--md-accent-fg-color);
+  --md-footer-bg-color: var(--md-primary-fg-color);
+}
+
+/* Dark theme custom colors */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #07091B;
+  --md-default-bg-color: #1A1C38;
+  --md-accent-fg-color: #6248ff;
+
+  --md-typeset-a-color: var(--md-accent-fg-color);
+}
+
+/* Dark Theme Custom Button */
+[data-md-color-scheme="slate"] .md-button {
+  background-color: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+  background-image: linear-gradient(45deg, var(--md-secondary--color-1), var(--md-secondary--color-2) 50%, var(--md-secondary--color-3));
+}
+
+/* Optional: Custom hover effects */
+[data-md-color-scheme="slate"] .md-button:hover {
+  background-color: var(--md-primary-bg-color);
+  border-color: var(--md-primary-bg-color);
+  color: var(--md-primary-fg-color);
+}
+
+/* Footer Section */
+.md-footer {
+  background-color: var(--md-default-bg-color);
+}
+
+.md-footer-meta {
+  background-color: var(--md-primary-fg-color);
+}
+
+/* Testimonial cards */
+.grid.cards.testimonials {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem;
+    margin: 1rem 0;
+}
+
+.grid.cards.testimonials > * {
+    margin-top: 0 !important;
+}
+
+/* Style the author name and title */
+.grid.cards.testimonials p:nth-child(2) {
+    margin-top: -0.5rem;
+    color: var(--md-default-fg-color--light);
+    font-size: 0.9rem;
+}
+
+
