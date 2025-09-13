@@ -29,4 +29,4 @@ Disallow: /
 User-agent: curl
 Disallow: /
 
-Sitemap: https://migueldias.tech/sitemap.xml
+Sitemap: https://miguelmirandadias.com/sitemap.xml

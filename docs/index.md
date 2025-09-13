@@ -11,11 +11,11 @@ canonical_url: https://www.miguelmirandadias.com/
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Miguel Miranda Dias",
-  "url": "https://www.migueldias.tech/",
+  "url": "https://www.miguelmirandadias.com/",
   "image": "assets/@miguelmirandadias.jpg",
   "sameAs": [
     "https://www.youtube.com/@miguelmirandadias",
-    "https://www.linkedin.com/in/justmiguel/",
+    "https://www.linkedin.com/in/miguelmirandadias/",
     "https://github.com/pandego"
     "https://www.skool.com/@mmiguel-dias-6954"
   ],
