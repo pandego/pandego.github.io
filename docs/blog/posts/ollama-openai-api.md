@@ -159,7 +159,7 @@ With Ollama’s `/v1` endpoint, you can prototype and ship **OpenAI‑compatible
       <h4 style="margin: 0 0 8px 0; font-size: 16px; color: var(--md-default-fg-color, #1a1a1a);">No OpenAI Account, No Problem! Crafting Your Own OpenAI API with Ollama 🦙</h4>
       <!-- Replace with your custom description -->
       <p style="margin: 0 0 12px 0; font-size: 14px; color: var(--md-default-fg-color--light, #6b7280); line-height: 1.4;">Explore alternatives to OpenAI's services and learn how to leverage open-source models for your AI projects.</p>
-      <a href="https://medium.com/@pandego/no-openai-account-no-problem-8a5835739572" target="_blank" style="display: inline-flex; align-items: center; gap: 4px; color: var(--md-accent-fg-color, #059669); text-decoration: none; font-weight: 500; font-size: 14px; transition: color 0.2s ease;">
+      <a href="https://medium.com/@miguelmirandadias/no-openai-account-no-problem-8a5835739572" target="_blank" style="display: inline-flex; align-items: center; gap: 4px; color: var(--md-accent-fg-color, #059669); text-decoration: none; font-weight: 500; font-size: 14px; transition: color 0.2s ease;">
         📖 Full article available on Medium
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M7 17L17 7M17 7H7M17 7V17"/>

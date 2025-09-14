@@ -73,7 +73,7 @@ Here's an overview of everything I'm currently working on in the fields of AI, e
 
     Datavengers is my company, which I founded in 2024. It has since grown beyond just me, and we now focus on building intelligent data-centric solutions, helping businesses effectively implement and leverage AI technologies.
 
--   :material-youtube:{ .lg .middle } [YouTube](https://www.youtube.com/@pandego?sub_confirmation=1)
+-   :material-youtube:{ .lg .middle } [YouTube](https://www.youtube.com/@miguelmirandadias?sub_confirmation=1)
 
     ---
 

@@ -14,7 +14,7 @@ nav:
   - Blog:
     - blog/index.md
   - Datavengers™: datavengers/index.md
-  - YouTube: https://www.youtube.com/@pandego?sub_confirmation=1
+  - YouTube: https://www.youtube.com/@miguelmirandadias?sub_confirmation=1
 
 
 theme:
@@ -60,9 +60,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/pandego
     - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/@pandego?sub_confirmation=1
+      link: https://www.youtube.com/@miguelmirandadias?sub_confirmation=1
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/justmiguel
+      link: https://www.linkedin.com/in/miguelmirandadias
   analytics:
     # provider: google
     # property: G-W9Y130NXVZ

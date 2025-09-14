@@ -235,7 +235,7 @@ MLflow + Postgres + MinIO, dockerized with Compose, gives you a **reproducible, 
       <h4 style="margin: 0 0 8px 0; font-size: 16px; color: var(--md-default-fg-color, #1a1a1a);">Red Wine, ElasticNet, and Dockerized MLflow with Postgres and MinIO: A Love Story Between DevOps and Data Science</h4>
       <!-- Replace with your custom description -->
       <p style="margin: 0 0 12px 0; font-size: 14px; color: var(--md-default-fg-color--light, #6b7280); line-height: 1.4;">A comprehensive guide on setting up MLflow with Docker, using Postgres for tracking and MinIO for artifact storage, demonstrated through a wine quality prediction model.</p>
-      <a href="https://medium.com/@pandego/red-wine-elasticnet-and-dockerized-mlflow-with-postgres-and-minio-d5aee144d1df" target="_blank" style="display: inline-flex; align-items: center; gap: 4px; color: var(--md-accent-fg-color, #059669); text-decoration: none; font-weight: 500; font-size: 14px; transition: color 0.2s ease;">
+      <a href="https://medium.com/@miguelmirandadias/red-wine-elasticnet-and-dockerized-mlflow-with-postgres-and-minio-d5aee144d1df" target="_blank" style="display: inline-flex; align-items: center; gap: 4px; color: var(--md-accent-fg-color, #059669); text-decoration: none; font-weight: 500; font-size: 14px; transition: color 0.2s ease;">
         📖 Full article available on Medium
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M7 17L17 7M17 7H7M17 7V17"/>
