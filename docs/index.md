@@ -57,11 +57,11 @@ canonical_url: https://www.miguelmirandadias.com/
 
 ## About me
 
-**My mission is simple: Bridge the gap between AI's promise and production reality.**
+**My mission is simple → Protect startups and teams from buying AI they can't use.**
 
-After a decade building AI systems across medtech, automotive, and enterprise sectors, I've seen too many companies burned by consultancies selling PowerPoints instead of working code. Technical teams get sidelined, projects fail, and AI becomes another expensive disappointment. **I founded Datavengers to protect startups and teams from buying AI they can't use.**
+After a decade building AI systems across medtech, automotive, and enterprise sectors, I've seen too many companies burned by consultancies selling PowerPoints instead of working code. Technical teams get sidelined, projects fail, and AI becomes another expensive disappointment. **I founded Datavengers to change that equation.**
 
-My path here wasn't typical. I started in research (PhD in genomics, postdoc in gene therapy) before recognizing that AI would reshape every industry. So I pivoted! Earned my Master's in Data Science & Artificial Intelligence and dove into industry, where I ship production-grade AI systems that actually deliver ROI. My academic foundation gave me the rigor, but it's the years of shipping production code that taught me what actually works. From patent analysis systems processing thousands of documents to computer vision catching defects on production lines, I've learned what works beyond the proof-of-concept stage. This unique background means I can translate between data scientists writing the code, executives signing the checks, and users living with the results.
+My path here wasn't typical. I started in research (PhD in genomics, postdoc in gene therapy) before recognizing that AI would reshape every industry. So I pivoted! Earned my Master's in Data Science & Artificial Intelligence and dove into industry, where I ship production-grade AI systems that actually deliver ROI. My academic foundation gave me the rigor, but **it's the years of shipping production code that taught me what actually works.** From patent analysis systems processing thousands of documents to computer vision catching defects on production lines, I've learned what works beyond the proof-of-concept stage. This unique background means I can translate between data scientists writing the code, executives signing the checks, and users living with the results.
 
 Today, through Datavengers and my educational content, I help companies implement AI that sticks and developers avoid the mistakes I've made. Because the real challenge isn't understanding AI - it's making it work reliably, at scale, with real data and real constraints. **That's where I come in.**
 
