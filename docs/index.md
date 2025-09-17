@@ -57,73 +57,13 @@ canonical_url: https://www.miguelmirandadias.com/
 
 ## About me
 
-Hi! I'm Miguel, an entrepreneur and educator living in France. I work with technical professionals facing the overwhelming pace of AI innovation and businesses struggling to translate AI hype into competitive advantage. Whether you're a developer watching your skills becoming obsolete or a company unsure how to implement AI effectively—the challenge is the same: how to effectively use this technology before your competitors do.
+**My mission is simple: Bridge the gap between AI's promise and production reality.**
 
-My artificial intelligence journey spans over a decade, with bachelor's and master's degrees in the field and experience building custom data and AI systems across utilities, government, and e-commerce sectors. My tech stack includes Python, PostgreSQL, ML, FastAPI, OpenAI, Claude, Azure, vector databases, RAG, and LLM integration for enterprise applications.
+After a decade building AI systems across medtech, automotive, and enterprise sectors, I've seen too many companies burned by consultancies selling PowerPoints instead of working code. Technical teams get sidelined, projects fail, and AI becomes another expensive disappointment. **So I founded Datavengers to protect startups and teams from buying AI they can't use.**
 
-## Things I'm working on
+My path here wasn't typical. I started in research (PhD in genomics, postdoc in gene therapy) before recognizing that AI would reshape every industry. So I pivoted! Earned my Master's in Data Science & Artificial Intelligence and dove into industry, where I ship production-grade AI systems that actually deliver ROI. My academic foundation gave me the rigor, but it's the years of shipping production code that taught me what actually works. From patent analysis systems processing thousands of documents to computer vision catching defects on production lines, I've learned what works beyond the proof-of-concept stage. This unique background means I can translate between data scientists writing the code, executives signing the checks, and users living with the results.
 
-Here's an overview of everything I'm currently working on in the fields of AI, education, and entrepreneurship.
-
-<div class="grid cards" markdown>
-
--   :fontawesome-solid-building-user:{ .lg .middle } [Datavengers™](https://www.datavengers.tech/)
-
-    ---
-
-    Datavengers is my company, which I founded in 2024. It has since grown beyond just me, and we now focus on building intelligent data-centric solutions, helping businesses effectively implement and leverage AI technologies.
-
--   :material-youtube:{ .lg .middle } [YouTube](https://www.youtube.com/@miguelmirandadias?sub_confirmation=1)
-
-    ---
-
-    Following my passion for making videos and educating, I share my journey and lessons on YouTube in the form of practical tutorials on how to build data and AI applications. Subscribe to follow the journey!
-
--   :material-school:{ .lg .middle } [Freelancing](https://calendar.app.google/2FvRfdbidFFGPKcu6)
-
-    ---
-
-    I offer my services as a freelancer to help businesses implement AI and data solutions. Whether you need help with a specific project or want to build a custom data and AI system, I can help.
-
--   :material-rocket:{ .lg .middle } AI Solutions
-
-    ---
-
-    I specialize in rapid development and deployment of AI solutions. Using modern tools and proven frameworks, I can help you move from concept to production faster, giving you a competitive edge in today's fast-paced market.
-
-</div>
-
-## Why work with me?
-
-Here's what sets me apart and how I can help drive value for your business:
-
-<div class="grid cards" markdown>
-
--   :fontawesome-solid-building-user:{ .lg .middle } Proven Business Experience
-
-    ---
-
-    As the founder of Datavengers, I bring entrepreneurial insight to every project. I understand both the technical and business sides of AI implementation, ensuring solutions that deliver real ROI and align with your business goals.
-
--   :material-youtube:{ .lg .middle } Educator & Communicator
-
-    ---
-
-    My experience as a content creator and educator means I can break down complex technical concepts into clear, actionable insights. You'll always understand the 'why' behind technical decisions and get clear progress updates.
-
--   :material-school:{ .lg .middle } Industry Expert
-
-    ---
-
-    With over a decade in AI and data science, including work across utilities, government, and e-commerce sectors, I bring battle-tested expertise to your projects. My solutions are built on real-world experience, not just theory.
-
--   :material-rocket:{ .lg .middle } Fast Implementation
-
-    ---
-
-    I specialize in rapid development and deployment of AI solutions. Using modern tools and proven frameworks, I can help you move from concept to production faster, giving you a competitive edge in today's fast-paced market.
-
-</div>
+Today, through Datavengers and my educational content, I help companies implement AI that sticks and developers avoid the mistakes I've made. Because the real challenge isn't understanding AI - it's making it work reliably, at scale, with real data and real constraints. **That's where I come in.**
 
 ## What people say about working with me
 
@@ -143,7 +83,7 @@ Here's what sets me apart and how I can help drive value for your business:
 
     ---
 
-    "Miguel has a very strong technical background, **is able to lead important projects, to make the accurate technical choices** and always learns new things and try to implement them in the profesional context. His support was **highly valuable for the data team and for the company.**"
+    "Miguel has a very strong technical background, **he's able to lead important projects, to make the accurate technical choices** and always learns new things and try to implement them in the profesional context. His support was **highly valuable for the data team and for the company.**"
 
 -   :material-format-quote-open:{ .lg .middle } Mehdi Elion
     

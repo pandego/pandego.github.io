@@ -1,5 +1,5 @@
 ---
-title: AI Patent Trend Analysis for EV Batteries (Confidential EU Enterprise)
+title: AI Patent Trend Analysis (Confidential EU Enterprise)
 description: End-to-end AI pipeline for classifying, translating, clustering, and summarizing patent filings to surface EV-battery technology trends for IP and innovation teams.
 ---
 
@@ -36,26 +36,27 @@ We built REST endpoints for **language detection → translation → domain-spec
 
 ## Solution Overview
 
-![Architecture Diagram](../../assets/openai-end-to-end-aml-deployment.svg)
+![Architecture Diagram](../../assets/patent-trend-analytics-architecture.svg)
 
-*Baseline chat/RAG reference architecture adapted for patent analytics (diagram placeholder).*
+*Baseline EV-battery patent trend analytics solution architecture*
 
 ## Tech Stack
-
-- **Vector index**: Databricks **Mosaic AI Vector Search**  
-- **Cloud**: Microsoft **Azure** (compute, storage, networking)  
-- **Backend**: **Python** services with **FastAPI** (REST)  
-- **Containerization**: **Docker**  
-- **CI/CD**: **Azure DevOps Pipelines**  
-- **LLM & embeddings**: **OpenAI** (summarization, domain embeddings)  
-- **Translation**: **Azure AI Translator**  
-- **Data platform**: Databricks APIs for ingestion & jobs
+- **Cloud**: Microsoft Azure Cloud Infrastructure
+- **Data Platform**: Azure Databricks (APIs for ingestion & jobs)
+- **Vector Index**: Databricks Vector Search
+- **Backend**: Python services with FastAPI (REST)
+- **Containerization**: Docker
+- **CI/CD**: Azure DevOps Pipelines
+- **Language Detection**: [XLM-Roberta](https://huggingface.co/qanastek/51-languages-classifier)
+- **Translation**: [mBART-large-50 many to one](https://huggingface.co/facebook/mbart-large-50-many-to-one-mmt)
+- **Embeddings**: [BERT for Patents](https://huggingface.co/anferico/bert-for-patents) (fine-tuned for EV-battery patents)
+- **LLM (summarization)**: [Mistral 7B](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2)
 
 ## Additional Context
 
 - **Timeline**: ~4 months  
-- **Team Size**: 4  
-- **Role**: AI Tech Lead  
+- **Team Size**: 4 people (2 Data Scientists, 1 MLOps Engineer, 1 Lead AI Engineer)
+- **Role**: Lead AI Engineer  
 - **Collaboration**: Close with IP analysts for evaluation loops and taxonomy alignment  
 - **Future Plans**: Feedback signals into clustering/evals; optional supervised topic labels
 
@@ -73,6 +74,6 @@ We built REST endpoints for **language detection → translation → domain-spec
     
     Want to see if we're a match? Let's have a chat and find out. Schedule a free 30-minute strategy session to discuss your AI challenges and explore how we can work together.
 
-    [Book Free Intro Call :material-arrow-top-right:](https://calendly.com){ .md-button .md-button--primary }
+    [Book Intro Call :material-arrow-top-right:](https://calendar.app.google/2FvRfdbidFFGPKcu6){ .md-button .md-button--primary target="_blank" }
 
 </div>

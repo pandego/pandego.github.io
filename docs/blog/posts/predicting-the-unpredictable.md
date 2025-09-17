@@ -15,8 +15,8 @@ Tired of your neural networks making lame predictions? 🤦‍♂️ Wish they c
 <!-- more -->
 
 ---
-> *Condensed mini‑blog from my piece on Mixture Density Networks (MDNs) for uncertainty-aware regression.*
-
+> *Condensed mini‑blog from my piece on Mixture Density Networks for uncertainty-aware regression.*
+> *Read full article on [Medium](https://medium.com/data-science/predicting-the-unpredictable-905f634acc20).*
 
 ## How an MDN Works (in one gulp)
 
