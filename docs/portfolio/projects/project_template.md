@@ -5,7 +5,7 @@ description: <ONE-LINE DESCRIPTION OF THE PROJECT IMPACT/OUTCOME>
 
 # <PROJECT TITLE>
 
-??? tip "Portfolio Best Practices"
+??? tip "Portfolio Best Practices" (don't include this section in the final portfolio)
     This is a simplified example template. When creating your own portfolio:
 
     - Include detailed technical challenges and how you solved them
@@ -29,7 +29,7 @@ description: <ONE-LINE DESCRIPTION OF THE PROJECT IMPACT/OUTCOME>
     - <PRIMARY KPI 4 (e.g., $/€ cost savings)>
     - <ADOPTION/OPERATIONS KPI (e.g., ticket deflection)>
 
-<ONE-SENTENCE OVERVIEW OF THE PROJECT — who it helps, what it does, why it matters.>
+<ONE-SENTENCE OVERVIEW OF THE PROJECT — what the client needed or aimed to achieve, who the solution helped, what it does, and why it matters.>
 
 ## Challenge
 
@@ -55,15 +55,13 @@ description: <ONE-LINE DESCRIPTION OF THE PROJECT IMPACT/OUTCOME>
 
 ## Tech Stack
 
+- <CLOUD PLATFORM>  
+- <DATA PLATFORM / LAKEHOUSE (if applicable)>
+- <CI/CD>  
+- <CONTAINERIZATION>  
+- <BACKEND FRAMEWORK>  
 - <MODEL/LLM OR NLP>  
 - <VECTOR DB / INDEX>  
-- <CLOUD PLATFORM>  
-- <BACKEND FRAMEWORK>  
-- <CONTAINERIZATION>  
-- <CI/CD>  
-- <INTEGRATIONS (e.g., Slack, Jira, Email)>  
-- <TRANSLATION / LANG DETECTION (if applicable)>  
-- <DATA PLATFORM / LAKEHOUSE (if applicable)>
 
 ## Additional Context
 

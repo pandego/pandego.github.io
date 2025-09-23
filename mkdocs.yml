@@ -9,6 +9,8 @@ nav:
     - Overview: portfolio/index.md
     - Projects:
       - portfolio/projects/project-patent-trend-analytics.md
+      - portfolio/projects/project-local-chatbot.md
+      - portfolio/projects/project-ergonomic-assessment.md
   - Blog:
     - blog/index.md
   - Datavengers™: datavengers/index.md

@@ -1,12 +1,12 @@
 ---
-title: AI Patent Trend Analysis (Confidential EU Enterprise)
+title: Patent Trend Analysis using LLMs (EU Enterprise)
 description: End-to-end AI pipeline for classifying, translating, clustering, and summarizing patent filings to surface EV-battery technology trends for IP and innovation teams.
 ---
 
-# AI Patent Trend Analysis for EV Batteries (Confidential EU Enterprise)
+# Patent Trend Analysis using LLMs for EV Batteries (EU Enterprise)
 
 !!! abstract "Case Study Summary"
-    **Client**: Confidential (EU enterprise)  
+    **Client**: Confidential / Leading European EV Battery Manufacturer  
     **Website**: —  
     **Industry**: Automotive (EV batteries)  
     
@@ -31,8 +31,8 @@ We built REST endpoints for **language detection → translation → domain-spec
 
 - Weekly patent exports processed into **digestible, titled clusters** with auto-summaries  
 - **Review loops cut from hours to minutes** per batch  
-- Earlier visibility of emerging themes; analysts focus on interpretation vs manual tagging  
-- Stable, repeatable releases with containerized CI/CD
+- Earlier visibility of emerging themes; **analysts focus on interpretation vs manual tagging**  
+- Stable, repeatable releases with **containerized CI/CD**
 
 ## Solution Overview
 
@@ -42,11 +42,11 @@ We built REST endpoints for **language detection → translation → domain-spec
 
 ## Tech Stack
 - **Cloud**: Microsoft Azure Cloud Infrastructure
+- **CI/CD**: Azure DevOps Pipelines
+- **Containerization**: Docker
 - **Data Platform**: Azure Databricks (APIs for ingestion & jobs)
 - **Vector Index**: Databricks Vector Search
 - **Backend**: Python services with FastAPI (REST)
-- **Containerization**: Docker
-- **CI/CD**: Azure DevOps Pipelines
 - **Language Detection**: [XLM-Roberta](https://huggingface.co/qanastek/51-languages-classifier)
 - **Translation**: [mBART-large-50 many to one](https://huggingface.co/facebook/mbart-large-50-many-to-one-mmt)
 - **Embeddings**: [BERT for Patents](https://huggingface.co/anferico/bert-for-patents) (fine-tuned for EV-battery patents)
@@ -54,11 +54,11 @@ We built REST endpoints for **language detection → translation → domain-spec
 
 ## Additional Context
 
-- **Timeline**: ~4 months  
-- **Team Size**: 4 people (2 Data Scientists, 1 MLOps Engineer, 1 Lead AI Engineer)
-- **Role**: Lead AI Engineer  
-- **Collaboration**: Close with IP analysts for evaluation loops and taxonomy alignment  
-- **Future Plans**: Feedback signals into clustering/evals; optional supervised topic labels
+- Timeline: ~4 months  
+- Team Size: 4 people (2 Data Scientists, 1 MLOps Engineer, 1 AI Tech Lead)
+- Role: AI Tech Lead
+- Collaboration: Close with IP analysts for evaluation loops and taxonomy alignment
+- Future Plans: Feedback signals into clustering/evals; optional supervised topic labels
 
 **Three Key Points**
 
