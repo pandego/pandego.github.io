@@ -62,7 +62,7 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@miguelmirandadias?sub_confirmation=1
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/miguelmirandadias
+      link: https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=miguelmirandadias
   analytics:
     # provider: google
     # property: G-W9Y130NXVZ
@@ -110,4 +110,4 @@ extra_files:
   - docs/robots.txt
 
 copyright: |
-  &copy; 2025 <a href="https://www.linkedin.com/in/miguelmirandadias" target="_blank" rel="noopener">Miguel Miranda Dias</a>. All rights reserved.
+  &copy; 2025 <a href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=miguelmirandadias" target="_blank" rel="noopener">Miguel Miranda Dias</a>. All rights reserved.

@@ -15,7 +15,7 @@ canonical_url: https://www.miguelmirandadias.com/
   "image": "assets/@miguelmirandadias.jpg",
   "sameAs": [
     "https://www.youtube.com/@miguelmirandadias",
-    "https://www.linkedin.com/in/miguelmirandadias/",
+    "https://www.linkedin.com/in/miguelmirandadias",
     "https://github.com/pandego"
     "https://www.skool.com/@mmiguel-dias-6954"
   ],
