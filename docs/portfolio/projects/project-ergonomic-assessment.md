@@ -7,6 +7,7 @@ description: Automated ergonomic scoring from depth-video, cutting plant-wide st
 !!! abstract "Case Study Summary"
     **Client**: Confidential / Fortune 500 European Automotive Supplier  
     **Industry**: Automotive (Manufacturing)  
+    **Role**: Lead Data Scientist
 
     **Impact Metrics:**
 

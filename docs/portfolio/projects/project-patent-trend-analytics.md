@@ -8,6 +8,7 @@ description: End-to-end AI pipeline for classifying, translating, clustering, an
 !!! abstract "Case Study Summary"
     **Client**: Confidential / Leading European EV Battery Manufacturer  
     **Industry**: Automotive (EV batteries)  
+    **Role**: AI Tech Lead
     
     **Impact Metrics**:
     
