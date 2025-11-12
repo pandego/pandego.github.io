@@ -7,7 +7,6 @@ description: Confidential ChatGPT-like assistant with RAG, translation, and secu
 
 !!! abstract "Case Study Summary"
     **Client**: Confidential / Leading European EV Battery Manufacturer  
-    **Website**: —  
     **Industry**: Automotive (EV Battery Manufacturing)  
 
     **Impact Metrics**:

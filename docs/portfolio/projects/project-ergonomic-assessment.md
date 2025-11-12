@@ -6,7 +6,6 @@ description: Automated ergonomic scoring from depth-video, cutting plant-wide st
 # AI-Powered Ergonomic Assessment with 3D Skeleton Tracking
 !!! abstract "Case Study Summary"
     **Client**: Confidential / Fortune 500 European Automotive Supplier  
-    **Website**: —  
     **Industry**: Automotive (Manufacturing)  
 
     **Impact Metrics:**

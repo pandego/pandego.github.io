@@ -18,7 +18,6 @@ description: <ONE-LINE DESCRIPTION OF THE PROJECT IMPACT/OUTCOME>
 
 !!! abstract "Case Study Summary"
     **Client**: <CLIENT OR CONFIDENTIAL>  
-    **Website**: <URL OR —>  
     **Industry**: <INDUSTRY>  
 
     **Impact Metrics**:
