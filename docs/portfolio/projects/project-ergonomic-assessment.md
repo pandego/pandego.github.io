@@ -32,7 +32,7 @@ I built a depth-camera pipeline that converts 3D video into live skeletal keypoi
 
 ### → Solution Architecture
 
-![Architecture Diagram](../../assets/ergonomics-3d-skeleton-ai.png)
+<img src="../../../assets/ergonomics-3d-skeleton-ai.png" alt="Architecture Diagram" width="600">
 
 *Depth camera → skeletal tracking SDK → kinematics engine → rules/scoring service → dashboard/report export.*
 

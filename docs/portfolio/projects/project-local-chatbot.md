@@ -36,7 +36,7 @@ I implemented a secure hybrid architecture with full separation of concerns. A *
 
 ### → Solution Architecture
 
-![Architecture Diagram](../../assets/enterprise_chatbot_onprem_architecture.svg)
+<img src="../../../assets/enterprise_chatbot_onprem_architecture.svg" alt="Architecture Diagram" width="600">
 
 *A secure local AI assistant architecture using a React-based UI, user DB, Ollama endpoints on 9x Nvidia GPUs HPC, and pgvector-based RAG pipelines.*
 
