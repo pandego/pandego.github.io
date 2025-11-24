@@ -31,45 +31,42 @@ description: <ONE-LINE DESCRIPTION OF THE PROJECT IMPACT/OUTCOME>
 
 <ONE-SENTENCE OVERVIEW OF THE PROJECT — what the client needed or aimed to achieve, who the solution helped, what it does, and why it matters.>
 
-## Challenge
+## 🧩 The Challenge
 
 <2–3 sentences on the before-state: pain, constraints, and stakes. Mention data sources/silos, scale, and business urgency.>
 
-## Our Approach
+## 💡 The Solution
+
+### → Implementation ⚙️
 
 <2–4 sentences summarizing the solution strategy. Name the core stages (e.g., ingestion → processing → modeling → serving → evaluation), key patterns (e.g., RAG, clustering, fine-tuning), and how it integrates with existing workflows.>
 
-## Results & Impact
-
-- <Outcome/KPI 1>  
-- <Outcome/KPI 2>  
-- <Outcome/KPI 3>  
-- <Outcome/KPI 4>  
-- <Adoption/Process improvement>
-
-## Solution Overview
+### → High-level Architecture 🏗️
 
 ![Architecture Diagram](../../assets/<DIAGRAM_FILE>.svg)
 
 *Short caption describing the architecture or link to a higher-resolution diagram.*
 
-## Tech Stack
+### → Tech Stack 🧰
 
 - <CLOUD PLATFORM>  
-- <DATA PLATFORM / LAKEHOUSE (if applicable)>
-- <CI/CD>  
+- <DATA PLATFORM or LAKEHOUSE (if applicable)>  
+- <CI-CD>  
 - <CONTAINERIZATION>  
 - <BACKEND FRAMEWORK>  
-- <MODEL/LLM OR NLP>  
+- <MODEL-LLM OR NLP>  
 - <VECTOR DB / INDEX>  
 
-## Additional Context
+## 📚 Key Learnings
 
-- **Timeline**: <N weeks/months>  
-- **Team Size**: <N people & roles>  
-- **Role**: <Your role and scope>  
-- **Collaboration**: <Stakeholders and review loops>  
-- **Future Plans**: <Roadmap items, feedback loops, retraining cadence>
+* [Challenge]: [Solution] (4-5 pairs)
+* [Show problem-solving ability]
+
+## 📊 Measurable Impact  
+
+* [Hard metrics with percentages]
+* [Business value, not just technical metrics]
+* [4-5 impact points]
 
 <div class="grid cards" style="margin-top: 3rem" markdown>
 

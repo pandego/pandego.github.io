@@ -14,33 +14,27 @@ description: End-to-end AI pipeline for classifying, translating, clustering, an
     
     - **−90%** review/labeling time per weekly batch (from **5 days → 0.5 day**)  
     - **−90%** manual classification overhead for the IP team  
-    - **≈ €490k/year** cost savings (10 IP engineers @ €50k/yr; weekly task reduced 5d → 0.5d → 45 person-days saved/week × 48 weeks × €227/day)  
+    - **≈ €490k/year** cost savings (calculated based on 10 IP engineers time saved)
     - Analysts reallocated from manual tagging to higher-value trend interpretation
 
-The IP team needed faster, consistent insight into thousands of new patents to inform R&D on emerging EV-battery technologies. We delivered a pipeline that turns raw patent exports into titled clusters with summaries and a trends dashboard.
+The IP team needed faster, consistent insight into thousands of new patents to inform R&D on emerging EV-battery technologies. I delivered a pipeline that turns raw patent exports into titled clusters with summaries and a trends dashboard.
 
-## Challenge
+## 🧩 The Challenge
 
 IP engineers were manually scanning and tagging multilingual patents—slow, inconsistent, and hard to replicate at scale. Multilingual content and unstructured abstracts made it difficult to compare filings and report consolidated trends to innovation stakeholders.
 
-## Our Approach
+## 💡 The Solution
 
-We built REST endpoints for **language detection → translation → domain-specific embedding → unsupervised clustering → cluster summarization → trend tracking**, exposed via a FastAPI service on Azure and backed by a vector index for semantic lookups. Clusters receive concise titles/summaries and can optionally align to **IPC** categories for consistent reporting.
+### → Implementation ⚙️
+I built REST endpoints for **language detection → translation → domain-specific embedding → unsupervised clustering → cluster summarization → trend tracking**, exposed via a FastAPI service on Azure and backed by a vector index for semantic lookups. Clusters receive concise titles/summaries and can optionally align to **IPC** categories for consistent reporting.
 
-## Results & Impact
+### → High-level Architecture 🏗️
 
-- Weekly patent exports processed into **digestible, titled clusters** with auto-summaries  
-- **Review loops cut from hours to minutes** per batch  
-- Earlier visibility of emerging themes; **analysts focus on interpretation vs manual tagging**  
-- Stable, repeatable releases with **containerized CI/CD**
-
-## Solution Overview
-
-![Architecture Diagram](../../assets/patent-trend-analytics-architecture.svg)
+<img src="../../assets/patent-trend-analysis-architecture.svg" alt="Architecture Diagram" width="600">
 
 *Baseline EV-battery patent trend analytics solution architecture*
 
-## Tech Stack
+### → Tech Stack 🧰
 - **Cloud**: Microsoft Azure Cloud Infrastructure
 - **CI/CD**: Azure DevOps Pipelines
 - **Containerization**: Docker
@@ -52,19 +46,27 @@ We built REST endpoints for **language detection → translation → domain-spec
 - **Embeddings**: [BERT for Patents](https://huggingface.co/anferico/bert-for-patents) (fine-tuned for EV-battery patents)
 - **LLM (summarization)**: [Mistral 7B](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2)
 
-## Additional Context
+## Results & Impact
 
-- Timeline: ~4 months  
-- Team Size: 4 people (2 Data Scientists, 1 MLOps Engineer, 1 AI Tech Lead)
-- Role: AI Tech Lead
-- Collaboration: Close with IP analysts for evaluation loops and taxonomy alignment
-- Future Plans: Feedback signals into clustering/evals; optional supervised topic labels
+- Weekly patent exports processed into **digestible, titled clusters** with auto-summaries  
+- **Review loops cut from hours to minutes** per batch  
+- Earlier visibility of emerging themes; **analysts focus on interpretation vs manual tagging**  
+- Stable, repeatable releases with **containerized CI/CD**
 
-**Three Key Points**
+## 📚 Key Learnings
 
-1. **Domain-specific embeddings** tuned for EV-battery patents to improve cluster cohesion.  
-2. **Unsupervised clustering** with optional **IPC-guided labels** for standardized taxonomy.  
-3. **Trend analytics dashboard** to monitor cluster momentum and surface emerging themes.
+- **Multilingual filings**: Used XLM-RoBERTa + mBART-50 to standardize language before embedding.
+- **Noisy abstracts & jargon**: Fine-tuned domain embeddings (BERT for Patents) to boost semantic cohesion before clustering.
+- **Inconsistent labels**: Auto-titled clusters with Mistral-7B; optionally mapped to IPC-labels.
+- **Scalability & repeatability**: Orchestrated Databricks jobs with containerized services and Azure DevOps CI/CD for stable weekly runs.
+- **Analyst adoption**: Added concise summaries + trends dashboard, shifting effort from manual tagging to interpretation.
+
+## 📊 Measurable Impact
+
+- **Earlier visibility** of emerging battery-tech themes; analysts redeployed to higher-value analysis.
+- Analysts reallocated from manual tagging to **higher-value trend interpretation**
+- -90% review/labeling time per weekly batch (from **5 days → 0.5 day**)  
+- **≈ €490k/year** cost savings (based on 10 IP engineers' time saved alone)
 
 <div class="grid cards" style="margin-top: 3rem" markdown>
 
