@@ -41,7 +41,7 @@ description: <ONE-LINE DESCRIPTION OF THE PROJECT IMPACT/OUTCOME>
 
 <2–4 sentences summarizing the solution strategy. Name the core stages (e.g., ingestion → processing → modeling → serving → evaluation), key patterns (e.g., RAG, clustering, fine-tuning), and how it integrates with existing workflows.>
 
-### → High-level Architecture 🏗️
+### → Solution Architecture 🏗️
 
 ![Architecture Diagram](../../assets/<DIAGRAM_FILE>.svg)
 
