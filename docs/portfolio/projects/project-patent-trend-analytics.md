@@ -3,7 +3,7 @@ title: Automated Patent Trend Intelligence for EV Batteries (EU Enterprise)
 description: End-to-end AI pipeline for classifying, translating, clustering, and summarizing patent filings to surface EV-battery technology trends for IP and innovation teams.
 ---
 
-# Automated Patent Trend Intelligence for EV Batteries (EU Enterprise)
+# Patent Trend Intelligence for EV Batteries
 
 !!! abstract "Case Study Summary"
     **Client**: Confidential / Leading European EV Battery Manufacturer  
