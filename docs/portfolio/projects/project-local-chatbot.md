@@ -1,9 +1,9 @@
 ---
-title: Secure Enterprise AI Assistant (EU Enterprise)
+title: Secure Enterprise AI Assistant
 description: Confidential ChatGPT-like assistant with RAG, translation, and secure on-premises deployment for 300+ employees
 ---
 
-# Secure Enterprise AI Assistant (EU Enterprise)
+# Secure Enterprise AI Assistant 
 
 !!! abstract "Case Study Summary"
     **Client**: Confidential / Leading European EV Battery Manufacturer
@@ -20,7 +20,7 @@ description: Confidential ChatGPT-like assistant with RAG, translation, and secu
 
 Built a secure, enterprise-grade AI assistant, a ChatGPT-like tool deployed fully on-premises. The system combined a deterministic RAG pipeline using a centralized knowledge base, real-time translation, and a React-based UI. It enabled global employees to interact with a private AI assistant without leaking any sensitive information.
 
-## 🧩 The Challenge
+## The Challenge
 
 Employees were increasingly using public tools (ChatGPT, Google Translate) for document digestion and translation. This posed two core risks:
 1. **Data leakage** to external AI platforms
@@ -28,19 +28,19 @@ Employees were increasingly using public tools (ChatGPT, Google Translate) for d
 
 The client required a fully local AI assistant, scalable, multilingual, and compliant with internal data governance.
 
-## 💡 The Solution
+## The Solution
 
-### → Implementation ⚙️
+### → Implementation
 
 I implemented a secure hybrid architecture with full separation of concerns. A **React-based frontend** with SSO login managed user sessions and chat interactions, while a dedicated **user database** stored chat history. A **vector database (PostgreSQL + pgvector)** held embedded company knowledge, optimized for RAG use. **Distributed Ollama LLM endpoints** were deployed across a local 9-GPU HPC cluster, and **event-driven pipelines** handled ingestion of documents, embedding generation, translation, and news updates. Each component was isolated and containerized, enabling scalable, fault-tolerant operations while enforcing data boundaries between chat storage and knowledge retrieval.
 
-### → Solution Architecture 🏗️
+### → Solution Architecture
 
 ![Architecture Diagram](../../assets/enterprise_chatbot_onprem_architecture.svg)
 
 *A secure local AI assistant architecture using a React-based UI, user DB, Ollama endpoints on 9x Nvidia GPUs HPC, and pgvector-based RAG pipelines.*
 
-### → Tech Stack 🧰
+### → Tech Stack
 
 - **Infrastructure**: On-prem HPC cluster (9x Nvidia GPUs)
 - **Frontend**: React-based UI with SSO
@@ -50,14 +50,14 @@ I implemented a secure hybrid architecture with full separation of concerns. A *
 - **Ingestion Pipelines**: Python-based, event-triggered
 - **Containerization & Scaling**: Docker, optionally Kubernetes (bare-metal)
 
-## 📚 Key Learnings
+## Key Learnings
 
 - **Data Sovereignty**: Complete local deployment eliminated external dependencies and data leakage risks.
 - **Scalability**: Distributed inference on GPU clusters maintained low latency (<2s) even with 300+ concurrent users.
 - **Data Hygiene**: Separating user metadata from vector knowledge prevented knowledge base pollution.
 - **User Adoption**: Integrating with existing SSO and providing a familiar UI (React-based) smoothed the transition from public tools.
 
-## 📊 Measurable Impact
+## Measurable Impact
 
 - Achieved complete local deployment, removing all dependency on external AI services
 - Improved onboarding efficiency by ~70% through instant document summarization

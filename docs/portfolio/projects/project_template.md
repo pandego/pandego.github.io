@@ -31,23 +31,23 @@ description: <ONE-LINE DESCRIPTION OF THE PROJECT IMPACT/OUTCOME>
 
 <ONE-SENTENCE OVERVIEW OF THE PROJECT — what the client needed or aimed to achieve, who the solution helped, what it does, and why it matters.>
 
-## 🧩 The Challenge
+## The Challenge
 
 <2–3 sentences on the before-state: pain, constraints, and stakes. Mention data sources/silos, scale, and business urgency.>
 
-## 💡 The Solution
+## The Solution
 
-### → Implementation ⚙️
+### → Implementation 
 
 <2–4 sentences summarizing the solution strategy. Name the core stages (e.g., ingestion → processing → modeling → serving → evaluation), key patterns (e.g., RAG, clustering, fine-tuning), and how it integrates with existing workflows.>
 
-### → Solution Architecture 🏗️
+### → Solution Architecture
 
 ![Architecture Diagram](../../assets/<DIAGRAM_FILE>.svg)
 
 *Short caption describing the architecture or link to a higher-resolution diagram.*
 
-### → Tech Stack 🧰
+### → Tech Stack
 
 - <CLOUD PLATFORM>  
 - <DATA PLATFORM or LAKEHOUSE (if applicable)>  
@@ -57,12 +57,12 @@ description: <ONE-LINE DESCRIPTION OF THE PROJECT IMPACT/OUTCOME>
 - <MODEL-LLM OR NLP>  
 - <VECTOR DB / INDEX>  
 
-## 📚 Key Learnings
+## Key Learnings
 
 * [Challenge]: [Solution] (4-5 pairs)
 * [Show problem-solving ability]
 
-## 📊 Measurable Impact  
+## Measurable Impact  
 
 * [Hard metrics with percentages]
 * [Business value, not just technical metrics]

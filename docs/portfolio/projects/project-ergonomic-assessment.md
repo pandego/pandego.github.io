@@ -1,15 +1,16 @@
 ---
-title: AI-Powered Ergonomic Assessment with 3D Skeleton Tracking (EU Enterprise)
+title: AI-Powered Ergonomic Assessment with 3D Skeleton Tracking
 description: Automated ergonomic scoring from depth-video, cutting plant-wide studies from 12 months to 3 weeks.
 ---
 
 # AI-Powered Ergonomic Assessment with 3D Skeleton Tracking
+
 !!! abstract "Case Study Summary"
-    **Client**: Confidential / Fortune 500 European Automotive Supplier  
-    **Industry**: Automotive (Manufacturing)  
+    **Client**: Confidential / Fortune 500 European Automotive Supplier
+    **Industry**: Automotive (Manufacturing)
     **Role**: Lead Data Scientist
 
-    **Impact Metrics:**
+    **Impact Metrics**:
 
     - **−94%** study duration per plant (12 months → 3 weeks)
     - **≈17×** throughput increase (workstations assessed per week)
@@ -19,51 +20,47 @@ description: Automated ergonomic scoring from depth-video, cutting plant-wide st
 
 The ergonomics team needed plant-wide ergonomics assessments in weeks, not months; we delivered an AI-powered 3D vision workflow that lets ergonomists identify high risk workstations quickly and consistently at plant scale.
 
-
-## Challenge
+## The Challenge
 
 Manual video review and angle measurement made ergonomic studies slow and error-prone. Plants had hundreds of workstations and repetitive tasks with musculoskeletal risk. One plant needed roughly a year to complete a full study, delaying mitigation and inflating risk exposure.
 
-## Our Approach
+## The Solution
 
-Built a depth-camera pipeline that converts 3D video into live skeletal keypoints and joint kinematics, then maps those to an ergonomics scoring rubric. Stages: **capture → 3D pose estimation → kinematic features (angles/rotations) → rules engine (rubric lookup) → real-time score & report**. The system delivered in-session feedback and standardized outputs the ergonomics team could act on immediately.
+### → Implementation
 
-## Results & Impact
+I built a depth-camera pipeline that converts 3D video into live skeletal keypoints and joint kinematics, then maps those to an ergonomics scoring rubric. The pipeline executes in stages: **capture → 3D pose estimation → kinematic features (angles/rotations) → rules engine (rubric lookup) → real-time score & report**. The system delivered in-session feedback and standardized outputs the ergonomics team could act on immediately.
 
-- Plant-wide assessment time reduced from **12 months to 3 weeks**  
-- **Live scoring during capture** eliminated manual frame-by-frame measurements  
-- Faster identification of high-risk stations enabled **earlier redesign and training**  
-- Reusable pipeline enabled adjacent analytics, including **cycle-time study work that contributed to a patent filing**
-
-## Solution Overview
+### → Solution Architecture
 
 ![Architecture Diagram](../../assets/ergonomics-3d-skeleton-ai.png)
 
-Depth camera → skeletal tracking SDK → kinematics engine → rules/scoring service → dashboard/report export.
+*Depth camera → skeletal tracking SDK → kinematics engine → rules/scoring service → dashboard/report export.*
 
-## Tech Stack
+### → Tech Stack
 
 - **Cloud**: Microsoft Azure Cloud Infrastructure
 - **CI/CD**: Azure DevOps Pipelines
 - **Containerization**: Docker
-- **Pose Detection**: [Azure Kinect Body Tracking SDK](https://azure.microsoft.com/fr-fr/products/kinect-dk) (C#, 3D joints), Intel RealSense depth  
-- **Application/UI**: Node.js app handling capture control, live overlays, and operator workflow; 
+- **Pose Detection**: [Azure Kinect Body Tracking SDK](https://azure.microsoft.com/fr-fr/products/kinect-dk) (C#, 3D joints), Intel RealSense depth
+- **Application/UI**: Node.js app handling capture control, live overlays, and operator workflow
 - **Backend**: C# SDK bridge for camera integration; Python modules for kinematics and scoring
-- **Kinematics & Scoring**: Python modules for joint angles, ranges of motion, and rotations invoked from the Node.js app
-- **Rules Engine**: Configurable rubric lookup for 7 risk classes (1: optimal, 7: not acceptable)  
-- **Runtime**: Local workstation capture with real-time scoring; batch export for reports (CSV/JSON)  
+- **Kinematics & Scoring**: Python modules for joint angles, ranges of motion, and rotations
+- **Rules Engine**: Configurable rubric lookup for 7 risk classes (1: optimal, 7: not acceptable)
 - **Data Handling**: On-device processing; no personal data retention (GDPR compliance)
-- **Visualization**: Overlayed skeleton and live score; anonymized exports (CSV/JSON) for BI tools  
 
-## Additional Context
+## Key Learnings
 
-Timeline:  
+- **Real-time Edge Processing**: Optimized 3D pose estimation and kinematic calculations to run locally on workstations, enabling immediate feedback.
+- **GDPR Compliance**: Designed the system to process video data in-memory without retention, storing only anonymous skeletal data and scores to satisfy strict privacy rules.
+- **Cross-Disciplinary Validation**: Collaborated deeply with ergonomics experts to translate subjective scoring sheets into deterministic geometric rules.
+- **Standardization**: Replaced subjective human observation with consistent, objective measurements across multiple global plant sites.
 
-- Timeline: ~8 months (pilot to global rollout)  
-- Team Size: 4 people (Lead DS, DevOps Engineer, Data Scientist, Ergonomics Expert)  
-- Role: Lead Data Scientist 
-- Close collaboration with ergonomics team for rubric definition and validation; plant managers for scheduling and access.  
-- Future plans include automated report generation, trend dashboards, and optional LLM add-ons (natural-language summaries of sessions, SOP retrieval, and Q&A over telemetry).
+## Measurable Impact
+
+- **−94% Study Time**: Plant-wide assessment time reduced from **12 months to 3 weeks**.
+- **Real-time Efficiency**: **Live scoring during capture** eliminated manual frame-by-frame measurements.
+- **Proactive Safety**: Faster identification of high-risk stations enabled **earlier redesign and training**.
+- **Innovation**: Reusable pipeline enabled adjacent analytics, including **cycle-time study work that contributed to a patent filing**.
 
 <div class="grid cards" style="margin-top: 3rem" markdown>
 

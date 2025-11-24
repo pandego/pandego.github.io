@@ -18,22 +18,22 @@ description: End-to-end AI pipeline for classifying, translating, clustering, an
 
 The IP team needed faster, consistent insight into thousands of new patents to inform R&D on emerging EV-battery technologies. I delivered a pipeline that turns raw patent exports into titled clusters with summaries and a trends dashboard.
 
-## 🧩 The Challenge
+## The Challenge
 
 IP engineers were manually scanning and tagging multilingual patents—slow, inconsistent, and hard to replicate at scale. Multilingual content and unstructured abstracts made it difficult to compare filings and report consolidated trends to innovation stakeholders.
 
-## 💡 The Solution
+## The Solution
 
-### → Implementation ⚙️
+### → Implementation
 I built REST endpoints for **language detection → translation → domain-specific embedding → unsupervised clustering → cluster summarization → trend tracking**, exposed via a FastAPI service on Azure and backed by a vector index for semantic lookups. Clusters receive concise titles/summaries and can optionally align to **IPC** categories for consistent reporting.
 
-### → Solution Architecture 🏗️
+### → Solution Architecture
 
 <img src="../../assets/patent-trend-analysis-architecture.png" alt="Architecture Diagram" width="600">
 
 *Baseline EV-battery patent trend analytics solution architecture*
 
-### → Tech Stack 🧰
+### → Tech Stack
 - **Cloud**: Microsoft Azure Cloud Infrastructure
 - **CI/CD**: Azure DevOps Pipelines
 - **Containerization**: Docker
@@ -46,7 +46,7 @@ I built REST endpoints for **language detection → translation → domain-speci
 - **LLM (summarization)**: [Mistral 7B](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2)
 
 
-## 📚 Key Learnings
+## Key Learnings
 
 - **Multilingual filings**: Used XLM-RoBERTa + mBART-50 to standardize language before embedding.
 - **Noisy abstracts & jargon**: Fine-tuned domain embeddings (BERT for Patents) to boost semantic cohesion before clustering.
@@ -54,7 +54,7 @@ I built REST endpoints for **language detection → translation → domain-speci
 - **Scalability & repeatability**: Orchestrated Databricks jobs with containerized services and Azure DevOps CI/CD for stable weekly runs.
 - **Analyst adoption**: Added concise summaries + trends dashboard, shifting effort from manual tagging to interpretation.
 
-## 📊 Measurable Impact
+## Measurable Impact
 
 - **Earlier visibility** of emerging battery-tech themes; analysts redeployed to higher-value analysis.
 - Analysts reallocated from manual tagging to **higher-value trend interpretation**
