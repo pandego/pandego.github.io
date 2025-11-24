@@ -11,11 +11,10 @@ description: End-to-end AI pipeline for classifying, translating, clustering, an
     **Role**: AI Tech Lead
     
     **Impact Metrics**:
-    
-    - **−90%** review/labeling time per weekly batch (from **5 days → 0.5 day**)  
-    - **−90%** manual classification overhead for the IP team  
-    - **≈ €490k/year** cost savings (calculated based on 10 IP engineers time saved)
+
     - Analysts reallocated from manual tagging to higher-value trend interpretation
+    - -90% review/labeling time per weekly batch (from **5 days → 0.5 day**)  
+    - **≈ €490k/year** cost savings (based on 10 IP engineers' time saved)
 
 The IP team needed faster, consistent insight into thousands of new patents to inform R&D on emerging EV-battery technologies. I delivered a pipeline that turns raw patent exports into titled clusters with summaries and a trends dashboard.
 
