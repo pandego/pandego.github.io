@@ -1,9 +1,9 @@
 ---
-title: Patent Trend Analysis using LLMs (EU Enterprise)
+title: Automated Patent Trend Intelligence for EV Batteries (EU Enterprise)
 description: End-to-end AI pipeline for classifying, translating, clustering, and summarizing patent filings to surface EV-battery technology trends for IP and innovation teams.
 ---
 
-# Patent Trend Analysis using LLMs for EV Batteries (EU Enterprise)
+# Automated Patent Trend Intelligence for EV Batteries (EU Enterprise)
 
 !!! abstract "Case Study Summary"
     **Client**: Confidential / Leading European EV Battery Manufacturer  
