@@ -27,7 +27,7 @@ IP engineers were manually scanning and tagging multilingual patents—slow, inc
 ### → Implementation ⚙️
 I built REST endpoints for **language detection → translation → domain-specific embedding → unsupervised clustering → cluster summarization → trend tracking**, exposed via a FastAPI service on Azure and backed by a vector index for semantic lookups. Clusters receive concise titles/summaries and can optionally align to **IPC** categories for consistent reporting.
 
-### → High-level Architecture 🏗️
+### → Solution Architecture 🏗️
 
 <img src="../../assets/patent-trend-analysis-architecture.svg" alt="Architecture Diagram" width="600">
 
@@ -45,12 +45,6 @@ I built REST endpoints for **language detection → translation → domain-speci
 - **Embeddings**: [BERT for Patents](https://huggingface.co/anferico/bert-for-patents) (fine-tuned for EV-battery patents)
 - **LLM (summarization)**: [Mistral 7B](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2)
 
-## Results & Impact
-
-- Weekly patent exports processed into **digestible, titled clusters** with auto-summaries  
-- **Review loops cut from hours to minutes** per batch  
-- Earlier visibility of emerging themes; **analysts focus on interpretation vs manual tagging**  
-- Stable, repeatable releases with **containerized CI/CD**
 
 ## 📚 Key Learnings
 
