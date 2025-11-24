@@ -1,9 +1,9 @@
 ---
-title: Patent Trend Intelligence using LLMs
+title: Patent Trend Analysis with LLMs
 description: End-to-end AI pipeline for classifying, translating, clustering, and summarizing patent filings to surface EV-battery technology trends for IP and innovation teams.
 ---
 
-# Patent Trend Intelligence using LLMs
+# Patent Trend Analysis with LLMs
 
 !!! abstract "Case Study Summary"
     **Client**: Confidential / Leading European EV Battery Manufacturer  
@@ -29,7 +29,7 @@ I built REST endpoints for **language detection → translation → domain-speci
 
 ### → Solution Architecture 🏗️
 
-<img src="../../assets/patent-trend-analysis-architecture.svg" alt="Architecture Diagram" width="600">
+<img src="../../assets/patent-trend-analysis-architecture.png" alt="Architecture Diagram" width="600">
 
 *Baseline EV-battery patent trend analytics solution architecture*
 

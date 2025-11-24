@@ -9,7 +9,7 @@ Welcome to my portfolio of data science and AI projects. Each project demonstrat
 
 <div class="grid cards" markdown>
 
--   [Patent Trend Intelligence using LLMs](projects/project-patent-trend-analytics.md)
+-   [Patent Trend Analysis with LLMs](projects/project-patent-trend-analytics.md)
 
     ---
 
