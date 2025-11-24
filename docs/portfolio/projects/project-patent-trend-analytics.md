@@ -29,7 +29,7 @@ I built REST endpoints for **language detection → translation → domain-speci
 
 ### → Solution Architecture
 
-<img src="../../assets/patent-trend-analysis-architecture.png" alt="Architecture Diagram" width="600">
+<img src="../../../assets/patent-trend-analysis-architecture.png" alt="Architecture Diagram" width="600">
 
 *Baseline EV-battery patent trend analytics solution architecture*
 
