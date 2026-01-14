@@ -17,6 +17,7 @@ Are you tired of messy machine learning pipelines? Do you struggle to keep track
 
 ---
 > *Condensed mini‑blog from my piece on self-hosting an MLflow instance.*
+
 > *Read full article on [Medium](https://medium.com/data-science-collective/red-wine-elasticnet-and-dockerized-mlflow-with-postgres-and-minio-d5aee144d1df).*
 
 ## Why this stack works

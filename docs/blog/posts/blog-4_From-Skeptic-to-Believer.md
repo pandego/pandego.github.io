@@ -17,6 +17,7 @@ I’ll admit it , when I first heard about the **Model Context Protocol (MCP)**,
 
 ---
 > *Condensed mini‑blog from my piece on the Model Context Protocol (MCP).*
+
 > *Read full article on [Medium](https://medium.com/data-science-collective/from-skeptic-to-believer-1a395066387f).*
 
 ## MCP in one breath

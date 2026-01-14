@@ -17,6 +17,7 @@ If you want the OpenAI developer experience without the OpenAI account (or token
 
 ---
 > *Condensed mini-blog from my piece on crafting your own OpenAI-compatible API with Ollama.*
+
 > *Read full article on [Medium](https://medium.com/data-science-collective/no-openai-account-no-problem-8a5835739572).*
 
 ## Why this rocks
