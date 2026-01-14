@@ -64,8 +64,8 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=miguelmirandadias
   analytics:
-    # provider: google
-    # property: G-W9Y130NXVZ
+    provider: google
+    property: G-WHGBT6L1RZ
 
 extra_css:
   - stylesheets/extra.css
