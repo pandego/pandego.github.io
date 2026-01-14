@@ -9,22 +9,40 @@ Welcome to my portfolio of data science and AI projects. Each project demonstrat
 
 <div class="grid cards" markdown>
 
--   [Patent Trend Analysis with LLMs](projects/project-patent-trend-analytics.md)
+-   [Patent Trend Analysis with LLMs](projects/project-3-patent-trend-analytics.md)
 
     ---
 
-    End-to-end AI pipeline for classifying, translating, clustering, and summarizing patent filings to surface EV-battery technology trends for IP and innovation teams.
+    End-to-end AI pipeline to surface EV-battery technology trends for IP and innovation teams.
 
--   [Secure Enterprise AI Assistant](projects/project-local-chatbot.md)
-
-    ---
-
-    Enterprise-grade AI assistant deployed fully on-premises, combined with a deterministic RAG system with company-specific knowledge, and real-time translation, enabling safe and efficient use of AI without exposing sensitive data to third parties.
-
--   [AI-Powered Ergonomic Assessment with 3D Skeleton Tracking](projects/project-ergonomic-assessment.md)
+-   [Public complaint processing system](projects/project-6-complaint-processing-system.md)
 
     ---
 
-    AI-powered 3D-vision workflow that lets ergonomists identify high-risk workstations quickly and consistently at plant scale.
+    Automated multi-channel complaint intake and insights for a public entity.
+
+-   [Secure Enterprise AI Assistant](projects/project-2-local-chatbot.md)
+
+    ---
+
+    Confidential ChatGPT-like assistant with RAG, translation, and secure on-premises deployment for 300+ employees.
+
+-   [AI Executive Assistant for Email and Calendar](projects/project-5-email-calendar-assistant.md)
+
+    ---
+
+    Automated scheduling and email workflows through Slack and Nylas, cutting executive admin time by 50%.
+
+-   [LLM-Based Clinical Decision Support System](projects/project-4-clinical-decision-support.md)
+
+    ---
+
+    RAG-powered decision support that surfaced trusted diagnoses and cut reference search time by 60%.
+
+-   [AI-Powered Ergonomic Posture Tracking System](projects/project-1-ergonomic-assessment.md)
+
+    ---
+
+    Automated ergonomic scoring from depth-video, cutting plant-wide studies from 12 months to 3 weeks.
 
 </div>

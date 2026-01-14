@@ -8,9 +8,12 @@ nav:
   - Case Studies:
     - Overview: portfolio/index.md
     - Projects:
-      - portfolio/projects/project-patent-trend-analytics.md
-      - portfolio/projects/project-local-chatbot.md
-      - portfolio/projects/project-ergonomic-assessment.md
+      - portfolio/projects/project-3-patent-trend-analytics.md
+      - portfolio/projects/project-6-complaint-processing-system.md
+      - portfolio/projects/project-2-local-chatbot.md
+      - portfolio/projects/project-5-email-calendar-assistant.md
+      - portfolio/projects/project-4-clinical-decision-support.md
+      - portfolio/projects/project-1-ergonomic-assessment.md
   - Blog:
     - blog/index.md
   - Datavengers™: datavengers/index.md
