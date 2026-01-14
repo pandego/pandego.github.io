@@ -215,6 +215,11 @@ mkdocs gh-deploy --force
 - No Cursor rules found in `.cursor/rules/` or `.cursorrules`.
 - No Copilot instructions found in `.github/copilot-instructions.md`.
 
+## Available Skills
+
+- `portfolio-project-creator`: Create new portfolio case study entries using the project template, update the portfolio index cards, and add the project to `mkdocs.yml` navigation.
+- `skill-creator`: Create or update skills that extend Claude’s workflows with reusable guidance and resources.
+
 ## Notes for Agents
 
 - Do not add new tooling or dependencies without request.
