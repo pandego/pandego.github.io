@@ -15,11 +15,11 @@ Welcome to my portfolio of data science and AI projects. Each project demonstrat
 
     End-to-end AI pipeline to surface EV-battery technology trends for IP and innovation teams.
 
--   [Public complaint processing system](projects/project-6-complaint-processing-system.md)
+-   [Healthcare complaint processing system](projects/project-6-complaint-processing-system.md)
 
     ---
 
-    Automated multi-channel complaint intake and insights for a public entity.
+    Automated multi-channel complaint intake and insights for a private healthcare provider.
 
 -   [Secure Enterprise AI Assistant](projects/project-2-local-chatbot.md)
 

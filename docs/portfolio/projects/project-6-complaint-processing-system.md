@@ -1,13 +1,13 @@
 ---
-title: Public complaint processing system
-description: Automated multi-channel complaint intake and insights for a public entity.
+title: Healthcare complaint processing system
+description: Automated multi-channel complaint intake and insights for a private healthcare provider.
 ---
 
-# Public complaint processing system
+# Healthcare complaint processing system
 
 !!! abstract "Case Study Summary"
     **Client**: Confidential  
-    **Industry**: Public sector  
+    **Industry**: Private healthcare  
     **Role**: AI Solution Architect
 
     **Impact Metrics**:
@@ -18,11 +18,11 @@ description: Automated multi-channel complaint intake and insights for a public 
     - Unified five intake channels into one processing pipeline
     - Automated anonymization before analysis to meet privacy requirements
 
-I built an end-to-end complaint processing system that ingests text, voice, and handwritten submissions, normalizes and anonymizes them, and delivers clustered insights to a dashboard so public-sector teams can prioritize responses quickly.
+I built an end-to-end complaint processing system that ingests text, voice, and handwritten submissions, normalizes and anonymizes them, and delivers clustered insights to a dashboard so private healthcare teams can prioritize responses quickly.
 
 ## The Challenge
 
-The entity received complaints from email, WhatsApp, voice, and handwritten letters, but every channel required different handling and manual triage. The team needed a single pipeline that could standardize content, protect personally identifiable information, and surface top themes without slowing response times.
+The entity received complaints from email, social-media platforms, voice, and handwritten letters, but every channel required different handling and manual triage. The team needed a single pipeline that could standardize content, protect personally identifiable information, and surface top themes without slowing response times.
 
 ## The Solution
 
