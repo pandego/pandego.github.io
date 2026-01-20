@@ -1,9 +1,9 @@
 ---
-title: Healthcare complaint processing system
+title: Healthcare Complaint Processing System
 description: Automated multi-channel complaint intake and insights for a private healthcare provider.
 ---
 
-# Healthcare complaint processing system
+# Healthcare Complaint Processing System
 
 !!! abstract "Case Study Summary"
     **Client**: Confidential  
