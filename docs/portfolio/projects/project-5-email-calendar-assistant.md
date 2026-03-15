@@ -66,7 +66,7 @@ Slack messages flow into FastAPI, which orchestrates Nylas API calls for email a
 
     ---
 
-    Want to see if we're a match? Let's have a chat and find out. Schedule a free 30-minute strategy session to discuss your AI challenges and explore how we can work together.
+    Want to see if we're a match? Let's have a chat and find out. Schedule a free 15-minute strategy session to discuss your AI challenges and explore how we can work together.
 
     [Book Intro Call :material-arrow-top-right:](https://calendar.app.google/2FvRfdbidFFGPKcu6){ .md-button .md-button--primary target="_blank" }
 </div>
